@@ -8,10 +8,19 @@ public class EjemploUsoJarras
     int n = 5;
 
     Jarra jarraA = new Jarra(5);
-    System.out.println(jarraA);
-
     Jarra jarraB = new Jarra(7);
-    System.out.println(jarraB);
+
+        jarraA.llena();
+        System.out.println(jarraA + "\t" + jarraB);
+
+        jarraB.llenaDesde(jarraA);
+        System.out.println(jarraA + "\t" + jarraB);
+
+        jarraB.vacia();
+        System.out.println(jarraA + "\t" + jarraB);
+
+        jarraB.llenaDesde(jarraA);
+        System.out.println(jarraA + "\t" + jarraB)
 
     }
 
