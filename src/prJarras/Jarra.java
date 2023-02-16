@@ -15,4 +15,23 @@ public class Jarra
         cantidad = 0;
 
     }
+
+    public void llena()
+    {
+        cantidad=capacidad;
+    }
+
+    public void vacia()
+    {
+        cantidad=0;
+    }
+
+    public void llenaDesde(Jarra j1)
+    {
+        if (this == j1)
+        {
+            throw new RuntimeException("No se puede volcar una jarra desde si misma");
+        }
+    }
 }
+

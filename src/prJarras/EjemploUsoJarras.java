@@ -20,7 +20,7 @@ public class EjemploUsoJarras
         System.out.println(jarraA + "\t" + jarraB);
 
         jarraB.llenaDesde(jarraA);
-        System.out.println(jarraA + "\t" + jarraB)
+        System.out.println(jarraA + "\t" + jarraB);
 
     }
 
