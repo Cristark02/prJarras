@@ -33,5 +33,15 @@ public class Jarra
             throw new RuntimeException("No se puede volcar una jarra desde si misma");
         }
     }
+
+    public int capacidad()
+    {
+        return capacidad;
+    }
+
+    public int cantidad()
+    {
+        return cantidad;
+    }
 }
 
